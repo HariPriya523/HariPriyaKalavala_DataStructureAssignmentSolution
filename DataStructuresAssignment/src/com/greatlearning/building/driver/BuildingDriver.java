@@ -13,7 +13,7 @@ public class BuildingDriver {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the total no of floors in the building\r\n");
+		System.out.println("Enter the total no of floors in the building");
 		List<FloorDetails> list = new LinkedList<>();
 		int noOfFloors = sc.nextInt();
 		for (int i = 0; i < noOfFloors; i++) {
